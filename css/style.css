@@ -248,7 +248,6 @@ li {
 .categorie1_sale{
     background-color:rgba(0,0,0,0.5);
     color:white;
-    font-weight: 700;
     padding:10px;
     text-align: center;
 
@@ -364,8 +363,44 @@ li {
     display:flex;
 }
 
-.Infos_block{
+.Infos_block1{
     background-color: #dfdbd4;
     margin:10px;
-    padding:10px;
+    padding:15px;
+    flex-basis:250px;;
+}
+
+.Infos_block2{
+    background-color: #dfdbd4;
+    margin:10px;
+    padding:15px;
+    flex-basis:400px;;
+}
+
+.Infos_titre4{
+    margin-top:8px;
+    margin-bottom:12px;
+    margin-right:5px;
+    font-size:15px;
+    font-weight: 600;
+}
+
+.Infos_block_texte{
+    clear:both;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:10px;
+}
+
+.prix-date{
+    float:left;
+    margin-left:0;
+    margin-right:10px;
+    background-color: #57c5a0;
+    padding-top:12px;
+    padding-bottom:12px;
+}
+
+h5{
+    font-weight: 600;
 }
