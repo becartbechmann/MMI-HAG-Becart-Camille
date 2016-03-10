@@ -4,6 +4,7 @@ body{
 
 p{
     line-height: 20px;
+    font-size: 14px;
 }
 
 
@@ -161,6 +162,10 @@ li {
     padding-top:2px;
 }
 
+.slider_PinkShoes_texte{
+    font-size:16px;
+}
+
 .icon-slider{
     float:left;
     text-align: center;
@@ -199,6 +204,17 @@ li {
     font-size:18px
 }
 
+.active{
+    padding-right:3em;
+    padding-left:3em;
+    padding-top: 0.6em;
+    padding-bottom: 0.3em;
+    text-align: center;
+    color:white;
+    font-size:18px
+}
+
+
 .p-min{
     font-size: 10px;
 }
@@ -209,6 +225,10 @@ li {
     background-color: black;
     border-right:2px solid #2e2e2e;
     border-left:2px solid #2e2e2e;
+}
+
+.actif{
+        background-color:#57c5a0 ;
 }
 
 .ChoixSlide_slide:hover > .ChoixSlide_slide_barre{
@@ -246,10 +266,11 @@ li {
 }
 
 .categorie1_sale{
-    background-color:rgba(0,0,0,0.5);
+    background-color:rgba(0,0,0,0.8);
     color:white;
-    padding:10px;
+    padding:15px;
     text-align: center;
+    font-size: 18px;
 
 }
 
@@ -322,6 +343,11 @@ li {
     cursor:pointer;
 }
 
+.shoes_NameShoes_Name1{
+    padding-bottom:30px;
+
+}
+
 .icon2{
     color:grey;
     padding:10px;
@@ -334,16 +360,18 @@ li {
     cursor:pointer;
 }
 
+
+.icon-hover{
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
 .NewArrivals_shoes_NameShoes:hover > .icon-hover{
     position: relative;
     top:-55px;
 
 }
 
-.shoes_NameShoes_Name1{
-    padding-bottom:30px;
-
-}
 
 
 .prix-out{
@@ -354,13 +382,12 @@ li {
     position: absolute;
 }
 
-.icon-hover{
-    padding-bottom: 8px;
-    padding-top: 8px;
-}
 
 .Infos{
     display:flex;
+    padding-bottom: 10px;
+    border-top:1px solid #d5d2cc;
+    padding-top: 10px;
 }
 
 .Infos_block1{
@@ -397,10 +424,122 @@ li {
     margin-left:0;
     margin-right:10px;
     background-color: #57c5a0;
-    padding-top:12px;
-    padding-bottom:12px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-bottom: 10px;
+    font-size:12px;
+    width:35px;
+}
+
+.Infos_block_p{
+    padding-top:5px;
 }
 
 h5{
     font-weight: 600;
+}
+
+footer{
+    background-color: #242424;
+    padding-top:20px;
+    justify-content: center;
+    color:#a4a4a4;
+
+}
+
+.Widget{
+    display: flex;
+
+}
+
+.Widget_ligne{
+        border-bottom:1px solid #151515;
+}
+
+.Widget_Twitter, .Widget_Flickr, .Widget_Text{
+    padding: 20px;
+    flex:1;
+    font-style: italic;
+}
+
+.Widget_Text{
+    text-align: justify;
+}
+
+.Widget_Flickr_img{
+    width:80px;
+    margin:4px;
+}
+
+.Widget_color{
+    color:#57c5a0;
+}
+
+.Widget_date{
+    color:#c5c5c5;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.Widget_titre{
+    margin-bottom: 15px;
+    color:#7d7d7d;
+    font-style:normal;
+}
+
+.Suivis{
+    padding-top:30px;
+    height:80px;
+}
+
+.Suivis_inputemail{
+    float:left;
+    padding:10px;
+    font-size:13px;
+    font-style: italic;
+    background-color: #2e2e2e;
+    color:#7d7d7d;
+    border:0;
+   
+}
+
+.Suivis_fleche{
+    width:25px;
+    padding:5px;
+    background-color: #7d7d7d;
+    color:#2e2e2e;
+    float:left;
+}
+
+.Suivis_share{
+    float:right;
+    margin-top:8px;
+}
+
+.icon3{
+    color:grey;
+    padding:10px;
+    margin-left:2px;
+    background-color: #2e2e2e;
+}
+
+.icon3:hover{
+    cursor: pointer;
+    background-color: #646464;
+}
+
+.Foot{
+    clear: both;
+    background-color: #2e2e2e;
+    height:50px;
+    padding-top:15px;
+    padding-bottom:5px;
+}
+
+.Foot_footLeft{
+    float:left;
+}
+
+.Foot_footRight{
+    float:right;
 }
